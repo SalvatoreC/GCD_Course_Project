@@ -2,8 +2,7 @@
 FILE NAME : trainAndTestDS.txt
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-A tidy data set containing test (2947) and training (7352) observations for a total of 10299 observations (rows) of 8 variables.
-As requested, only the measurements on the mean and standard deviation for each measurement are extracted.
+A tidy data set containing test (2947) and training (7352) observations for a total of 10299 observations (rows) of 8 variables. As requested, only the measurements on the mean and standard deviation for each measurement were extracted.
 
 Column names:
   "activityName" (activity_labels.txt: the descriptive activity name): factor w/6 levels
@@ -16,7 +15,7 @@ Column names:
   "tBodyAccStdZ" (features.txt: "tBodyAcc-std()-Z"): num
   
 
-#FILE NAME : averageActAndSubj.txt
+FILE NAME : averageActAndSubj.txt
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 A second, independent tidy data set created with the average of each variable for each activity and each subject.
