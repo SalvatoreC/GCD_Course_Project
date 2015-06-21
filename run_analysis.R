@@ -130,7 +130,7 @@ trainAndTestDSMelt <- melt(trainAndTestDS, id = c("activityName",
                                     "tBodyAccMeanY",
                                     "tBodyAccmeanZ",
                                     "tBodyAccStdX",
-                                    "tBodyAcStdY",
+                                    "tBodyAccStdY",
                                     "tBodyAccStdZ"))
 
 averageActAndSubj <- dcast(trainAndTestDSMelt, activityName + subjectID ~ variable, mean)
