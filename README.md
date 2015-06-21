@@ -10,10 +10,18 @@ Prerequisites:
 Step 0 - Common data are read and descriptive column names are assigned.
 
 Step 1 - Training data are read and descriptive column names are assigned.
+Note: only mean and standard deviation measurements are extracted.
 
 Step 2 - Testing data are read and descriptive column names are assigned.
+Note: only mean and standard deviation measurements are extracted.
 
 Step 3 - Train and Test datasets are merged to create one dataset.
 
 Step 4 - An independent tidy data set is created with the average of each variable for each activity and each subject.
+
+Results:
+- a merged dataset is created and written to the working directory: trainAndTestDS.txt;
+- a second, independent tidy data set with the average of each variable for each activity and each subject is created and written to the working directory: averageActAndSubj.txt.
+
+See CodeBook.txt for detailed variable descriptions.
 
