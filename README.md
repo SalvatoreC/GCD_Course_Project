@@ -23,5 +23,5 @@ Output:
 - a merged dataset is created and written to the working directory: trainAndTestDS.txt;
 - a second, independent tidy data set with the average of each variable for each activity and each subject is created and written to the working directory: averageActAndSubj.txt (note: this is the tidy data set submitted in the Coursera GCD Course Project web page).
 
-See CodeBook.txt for detailed variable descriptions.
+See CodeBook.txt for more details.
 
