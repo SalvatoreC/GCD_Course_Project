@@ -1,14 +1,35 @@
 
-file name : trainAndTestDS.txt
+FILE NAME : trainAndTestDS.txt
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-a data set containing test (#2947) and training (#7352) observations for a total of 10299
+A tidy data set containing test (2947) and training (7352) observations for a total of 10299 observations (rows) of 8 variables.
+As requested, only the measurements on the mean and standard deviation for each measurement are extracted.
 
-column names:
-  activityName
-  subjectID
-  tBodyAccMeanX
-  tBodyAccMeanY
-  tBodyAccmeanZ
-  tBodyAccStdX
-  tBodyAccStdY
-  tBodyAccStdZ
+Column names:
+  "activityName" (activity_labels.txt: the descriptive activity name): factor w/6 levels
+  "subjectID" (subject_train.txt and subject_test.txt: the volunteer's ID): int w/30 unique values
+  "tBodyAccMeanX" (features.txt: "tBodyAcc-mean()-X"): num
+  "tBodyAccMeanY" (features.txt: "tBodyAcc-mean()-Y"): num
+  "tBodyAccmeanZ" (features.txt: "tBodyAcc-mean()-Z"): num
+  "tBodyAccStdX" (features.txt: "tBodyAcc-std()-X"): num
+  "tBodyAccStdY" (features.txt: "tBodyAcc-std()-Y"): num
+  "tBodyAccStdZ" (features.txt: "tBodyAcc-std()-Z"): num
+  
+FILE NAME : averageActAndSubj.txt
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+A second, independent tidy data set created with the average of each variable for each activity and each subject.
+This data set has been calculated from the previus data set (trainAndTestDS.txt), averaging mean and standard variation measures over 6 activities x 30 subjects = 180 observations (rows) of 8 variables.
+
+Column names:
+  "activityName" (see trainAndTestDS.txt)
+  "subjectID" (see trainAndTestDS.txt)
+  "tBodyAccMeanX": num, calculated average foe each activity and each subject
+  "tBodyAccMeanY": num, calculated average foe each activity and each subject
+  "tBodyAccmeanZ": num, calculated average foe each activity and each subject
+  "tBodyAccStdX": num, calculated average foe each activity and each subject
+  "tBodyAccStdY": num, calculated average foe each activity and each subject
+  "tBodyAccStdZ": num, calculated average foe each activity and each subject
+
+
+
