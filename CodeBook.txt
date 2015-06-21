@@ -1,0 +1,14 @@
+
+file name : trainAndTestDS.txt
+
+a data set containing test (#2947) and training (#7352) observations for a total of 10299
+
+column names:
+  activityName
+  subjectID
+  tBodyAccMeanX
+  tBodyAccMeanY
+  tBodyAccmeanZ
+  tBodyAccStdX
+  tBodyAccStdY
+  tBodyAccStdZ
