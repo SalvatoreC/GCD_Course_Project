@@ -27,7 +27,7 @@ x_colnames <- c("tBodyAccMeanX",
                 "tBodyAccMeanY",
                 "tBodyAccmeanZ",
                 "tBodyAccStdX",
-                "tBodyAcStdY",
+                "tBodyAccStdY",
                 "tBodyAccStdZ")
 
 # 1. Training data are read and descriptive column names are assigned
