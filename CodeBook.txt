@@ -15,7 +15,8 @@ Column names:
   "tBodyAccStdY" (features.txt: "tBodyAcc-std()-Y"): num
   "tBodyAccStdZ" (features.txt: "tBodyAcc-std()-Z"): num
   
-FILE NAME : averageActAndSubj.txt
+
+#FILE NAME : averageActAndSubj.txt
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 A second, independent tidy data set created with the average of each variable for each activity and each subject.
