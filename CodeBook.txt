@@ -10,5 +10,5 @@ column names:
   tBodyAccMeanY
   tBodyAccmeanZ
   tBodyAccStdX
-  tBodyAccStdY
+  tBodyAcStdY
   tBodyAccStdZ
